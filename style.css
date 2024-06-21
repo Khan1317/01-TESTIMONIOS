@@ -1,0 +1,63 @@
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+  }
+
+  .testimonial-container {
+    width: 500px;
+    height: 100px;
+    background-color: slateblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-width: 400px;
+    padding: 70px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+  }
+
+  .username {
+    font-size: 13px;
+    font-weight: 100;
+  }
+
+  .text{
+    width: 495px;
+    height: 80px;
+    overflow: auto;
+    padding-right: 10px;
+  }
+
+  .text::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento vertical */
+  }
+
+  .text::-webkit-scrollbar-track {
+    background: slateblue; /* Fondo de la barra de desplazamiento */
+  }
+
+  .text::-webkit-scrollbar-thumb {
+    background-color: #4b0082; /* Color de la barra de desplazamiento */
+    border-radius: 6px; /* Redondear los bordes de la barra */
+    border: 3px solid slateblue; /* Espacio alrededor de la barra */
+  }
+
+  .text-firefox {
+    scrollbar-width: thin; /*Ancho de la barra de desplazamiento */
+    scrollbar-color: #4b0082 slateblue; /*Color de la barra y su fondo*/
+  }
+  
